@@ -1,4 +1,19 @@
-# v-directives
+# cm-directives
+
+## 使用方法
+
+1. 安装依赖
+
+```
+npm install cm-directives --save
+```
+
+2. 注册指令
+
+```js
+import cmDirectives from 'cm-directives'
+Vue.use(cmDirectives)
+```
 
 基于 vue 的自定义指令集合，包含
 
@@ -6,7 +21,7 @@
 - 长按指令 v-longpress
 - 输入框防抖指令 v-debounce
 - 禁止表情及特殊字符 v-emoji
-- 图片懒加载 v-LazyLoad
+<!-- - 图片懒加载 v-LazyLoad -->
 - 权限校验指令 v-premission
 - 实现页面水印 v-waterMarker
 - 拖拽指令 v-draggable

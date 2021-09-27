@@ -1,6 +1,6 @@
 {
   "name": "cm-directives",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "directives base vue",
   "author": "lzg",
   "main": "./dist/index.js",
